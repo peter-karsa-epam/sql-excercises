@@ -1,0 +1,22 @@
+-- INSERT INTO sql_excercise.address (CITY, COUNTRY, STREET, ZIPCODE) VALUES ('Budapest', 'HUNGARY', 'Futó utsza', '1083');
+-- INSERT INTO sql_excercise.restaurant (NAME, ADDRESS_ID) VALUES ('RIJÓ','1');
+-- INSERT INTO sql_excercise.menu (Restaurant_ID, FROMDATE, TODATE) VALUES ('1', curdate(), curdate() + interval 1 month  -  interval 1 day);
+-- SELECT * FROM sql_excercise.menu join sql_excercise.restaurant join sql_excercise.address;
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('200', 0,'Lasagne','2000');
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('300',1,'Bolognai','1000');
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('400',1,'Salad','700');
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('500',0,'Cake','800');
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('600',0,'More cake','1000');
+-- SELECT * FROM sql_excercise.food;
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('1', '1');
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('1', '2');
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('1', '3');
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('1', '4');
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('1', '5');
+-- SELECT * FROM sql_excercise.menu join sql_excercise.food;
+-- INSERT INTO sql_excercise.menu (Restaurant_ID, FROMDATE, TODATE) VALUES ('1', curdate()  + interval 1 month
+-- , curdate()  + interval 2 month  -  interval 1 day);
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('600', 0, 'LasagneSAJT NÉLKÜL','2070');
+-- INSERT INTO sql_excercise.food (CALORIES, ISVEGAN, NAME, PRICE) VALUES ('300', 1, 'SALYT','3300');
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('2', '6');
+-- INSERT INTO sql_excercise.menu_food (Menu_ID, foods_ID) VALUES ('2', '7');

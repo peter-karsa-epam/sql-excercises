@@ -1,0 +1,6 @@
+-- SELECT * FROM sql_excercise.food;
+-- SELECT * FROM sql_excercise.food WHERE sql_excercise.food.ISVEGAN=1;
+-- SELECT * FROM sql_excercise.food order BY sql_excercise.food.PRICE ASC;
+-- SELECT * FROM sql_excercise.food order BY sql_excercise.food.PRICE DESC;
+-- SELECT MAX(PRICE) AS HighestPrice FROM sql_excercise.food;
+-- SELECT COUNT(1),  FROM GROUP BY ;
